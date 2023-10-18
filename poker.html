@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poker Game</title>
+    <style>
+        #game {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .player-slot {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        .player-info {
+            font-weight: bold;
+        }
+        #game-phase {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        #next-phase-button {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .action-button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Poker Game</h1>
+    <h2 id="currentPlayer"></h2>
+    <div id="game">
+        <div id="player1" class="player-slot">
+            <button onclick="addPlayer(1)">Adicionar Jogador</button>
+            <div id="player1-info"></div>
+            <button class="action-button" onclick="fold(1)">Fold</button>
+            <button class="action-button" onclick="check(1)">Check</button>
+            <button class="action-button" onclick="call(1)">Call</button>
+            <button class="action-button" onclick="raise(1)">Raise</button>
+        </div>
+        <div id="player2" class="player-slot">
+            <button onclick="addPlayer(2)">Adicionar Jogador</button>
+            <div id="player2-info"></div>
+            <button class="action-button" onclick="fold(2)">Fold</button>
+            <button class="action-button" onclick="check(2)">Check</button>
+            <button class="action-button" onclick="call(2)">Call</button>
+            <button class="action-button" onclick="raise(2)">Raise</button>
+        </div>
+        <div class="player-slot">
+            <button onclick="addPlayer(3)">Adicionar Jogador</button>
+            <div id="player3-info"></div>
+            <button class="action-button" onclick="fold(3)">Fold</button>
+            <button class="action-button" onclick="check(3)">Check</button>
+            <button class="action-button" onclick="call(3)">Call</button>
+            <button class="action-button" onclick="raise(3)">Raise</button>
+        </div>
+        <div class="player-slot">
+            <button onclick="addPlayer(4)">Adicionar Jogador</button>
+            <div id="player4-info"></div>
+            <button class="action-button" onclick="fold(4)">Fold</button>
+            <button class="action-button" onclick="check(4)">Check</button>
+            <button class="action-button" onclick="call(4)">Call</button>
+            <button class="action-button" onclick="raise(4)">Raise</button>
+        </div>
+        <div class="player-slot">
+            <button onclick="addPlayer(5)">Adicionar Jogador</button>
+            <div id="player5-info"></div>
+            <button class="action-button" onclick="fold(5)">Fold</button>
+            <button class="action-button" onclick="check(5)">Check</button>
+            <button class="action-button" onclick="call(5)">Call</button>
+            <button class="action-button" onclick="raise(5)">Raise</button>
+        </div>
+        <div class="player-slot">
+            <button onclick="addPlayer(6)">Adicionar Jogador</button>
+            <div id="player6-info"></div>
+            <button class="action-button" onclick="fold(6)">Fold</button>
+            <button class="action-button" onclick="check(6)">Check</button>
+            <button class="action-button" onclick="call(6)">Call</button>
+            <button class="action-button" onclick="raise(6)">Raise</button>
+        </div>
+    </div>
+    <div id="game-phase">Fase: Pré-Flop</div>
+    <div id="pote">Pote: 0</div>
+    <div id="next-phase-button">
+        <button onclick="nextPhase()">Próxima Fase</button>
+    </div>
+        <script src="poker.js"></script>
+
+</body>
+</html>
