@@ -10,7 +10,7 @@ let currentPhase = "Pré-Flop";
             const playerName = prompt("Nome do jogador:");
             const chips = parseInt(prompt("Quantidade de fichas:"));
             if (playerName && !isNaN(chips) && chips >= 0) {
-                players[`player${playerNumber}`] = { name: playerName, chips: chips, inGame: true };
+                players[`player${playerNumber}`] = { name: playerName, chips: chips };
                 document.getElementById(`player${playerNumber}-info`).innerHTML = `<div class="player-info">${playerName}</div>Fichas: ${chips}`;
             }
         }
@@ -27,7 +27,6 @@ let currentPhase = "Pré-Flop";
 
         function fold(playerNumber) {
             alert(`${players[`player${playerNumber}`].name} escolheu Fold.`);
-            players[`player${currentPlayer}`].inGame = false;
             
             nextPlayer();
         }
@@ -101,6 +100,8 @@ let currentPhase = "Pré-Flop";
                     const vencedor = playerKey;
                     alert(`${vencedor} venceu a partida! Pote: ${pote}`);
                     players[vencedor].chips += pote;
+                    pote = 0
+                    currentPhase = "Pré-Flop"
                     document.getElementById("pote").textContent = `Pote: ${pote}`;
                     nextPlayer(); // Avança para o próximo jogador
                     setCurrentPlayer(currentPlayer); // Atualiza o jogador atual
