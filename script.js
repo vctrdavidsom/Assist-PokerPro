@@ -65,7 +65,7 @@ let currentPhase = "Pré-Flop";
             nextPlayer();
         }
 
-        function nextPhase() {
+        function nextPhase() { // passa para proxima fase e zera a variavel que armazarna a aposta da rodada
             if (currentPhase === "Pré-Flop") {
                 currentPhase = "Flop";
                 newRaise = 0;
@@ -93,7 +93,7 @@ let currentPhase = "Pré-Flop";
 
         //_________________________________________________________________________________________________
        
-        function endGame() {
+        function endGame() {// finaliza a partida declara o vencedor
             const vencedorNome = prompt("Informe o nome do jogador vencedor:");
             for (const playerKey in players) {
                 if (players[playerKey].name === vencedorNome) {
