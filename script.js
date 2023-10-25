@@ -103,6 +103,9 @@ let currentPhase = "Pré-Flop";
                     pote = 0
                     currentPhase = "Pré-Flop"
                     document.getElementById("pote").textContent = `Pote: ${pote}`;
+                    document.getElementById(`${playerKey}-info`).innerHTML = `<div class="player-info">${players[`${playerKey}`].name}</div>Fichas: ${players[`${playerKey}`].chips}`;
+                    document.getElementById("game-phase").textContent = `Fase: ${currentPhase}`;
+
                     nextPlayer(); // Avança para o próximo jogador
                     setCurrentPlayer(currentPlayer); // Atualiza o jogador atual
                     return;
