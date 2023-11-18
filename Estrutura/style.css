@@ -1,0 +1,78 @@
+body {
+    background-image: url(6325236-ilustracao-em-de-mesa-de-poquer-verde-em-fundo-escuro-gratis-vetor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: #ccc;
+}
+
+p {
+    color: #ccc;
+}
+#game {
+    position: relative;
+    display: grid;
+    padding-bottom: 65px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#player1 {
+    position: relative;
+    top: -10px;
+    left: 200px;
+}
+
+#player2 {
+    position: relative;
+    top: -10px;
+    left: 400px;
+}
+
+#player3 {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+#player4 {
+    position: relative;
+    top: 380px;
+    left: 880px;
+}
+
+#player5 {
+    position: relative;
+    top: 380px;
+    left: -300px;
+}
+
+#player6 {
+    position: relative;
+    top: 110px;
+    left: -1020px;
+}
+
+.player-slot {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.player-info {
+    font-weight: bold;
+}
+#game-phase {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#next-phase-button {
+    text-align: center;
+    margin-top: 10px;
+}
+.action-button {
+    margin: 5px;
+}
