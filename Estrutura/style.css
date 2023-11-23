@@ -11,22 +11,40 @@ body {
     background-size: cover;
     background-position: center center;
     height: 490px;
-    width: 1100px;
+    width: 1150px;
     padding: 0%;
     align-items: center;
     position: relative;
-    left: 100px;
+    left: 70px;
 }
 h1{
     text-align: center;
     color: #000000a8;
 }
 h2{
+    position: relative;
     color: #ff0000;
+    top: 83px;
+    left: 486px;
+}
+.action-button{
+    width: 40px;
+    height: 15px;
+    font-size: 10px;
+}
+.action-button-player{
+    width: 150px;
+    height: 15px;
+    font-size: 10px;
 }
 
 #pote {
+    position: relative;
     color: #ff0000;
+    bottom: 150px;
+    left: 120px;
+    font-size: 50px;
+
 }
 #game-phase{
     color: #ff0000;
@@ -43,33 +61,51 @@ h2{
 }
 
 #player1 {
-    width: 240px;
+    width: 220px;
     height: 50px;
+    position: relative;
+    left: -200px;
+    top: 5px;
 }
 
 #player2 {
-    width: 240px;
+    width: 220px;
     height: 50px;
+    position: relative;
+    top: 6px;
+    right: 25px;
 }
 
 #player3 {
-    width: 240px;
+    width: 220px;
     height: 50px;
+    position: relative;
+    left: 900px;
+    top: 25px;
 }
 
 #player4 {
-    width: 240px;
+    width: 220px;
     height: 50px;
+    position: relative;
+    left: 360px;
+    top: 226px;
 }
 
 #player5 {
-    width: 240px;
+    width: 220px;
     height: 50px;
+    position: relative;
+    right: 585px;
+    top: 226px;
 }
 
 #player6 {
-    width: 240px;
+    width: 220px;
     height: 50px;
+    position: relative;
+    bottom: 146px;
+
 }
 
 .player-slot {
@@ -88,6 +124,9 @@ h2{
 #next-phase-button {
     text-align: center;
     margin-top: 10px;
+    position: relative;
+    bottom: 45px;
+    right: 385px;
 }
 .action-button {
     margin: 5px;
