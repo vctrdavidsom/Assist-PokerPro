@@ -1,0 +1,31 @@
+body {
+    background-image: url(../img/BackgroundBory.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#central {
+    width: 600px; /* Adicione uma largura para a div #central */
+    height: 550px; /* Adicione uma altura para a div #central */
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    left: 330px;
+    top: 60px;
+}
+
+#botao{
+    width: 60px;
+    height: 55px;
+    position: relative;
+    left: 268px;
+    top: 390px;
+}
+
+#imagembotao{
+    width: 60px;
+    height: 60px;
+}
