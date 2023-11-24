@@ -16,6 +16,7 @@ body {
     align-items: center;
     position: relative;
     left: 21px;
+    border-radius: 80px;
 }
 h1{
     text-align: center;
