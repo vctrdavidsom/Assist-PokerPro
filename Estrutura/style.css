@@ -1,3 +1,9 @@
+body, div, h1, h2, h3, p, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     background-image: url(../img/BackgroundBory.jpg);
     background-repeat: no-repeat;
@@ -12,10 +18,12 @@ body {
     background-position: center center;
     height: 490px;
     width: 1250px;
-    padding: 0%;
+    flex-direction: row;
+    padding: -2%;
+    margin: 2%;
     align-items: center;
     position: relative;
-    left: 21px;
+    left: 120px;
     border-radius: 80px;
 }
 h1{
@@ -63,23 +71,28 @@ h2{
     height: 50px;
     position: relative;
     left: -200px;
+    top: -35px;
     bottom: 7px;
+    border-radius: 80px;
 }
 
 #player2 {
     width: 240px;
     height: 50px;
     position: relative;
+    top: -35px;
     bottom: 7px;
     right: 25px;
+    border-radius: 80px;
 }
 
 #player3 {
-    width: 240px;
-    height: 50px;
+    width: 210px;
+    height: 80px;
     position: relative;
-    left: 975px;
-    top: 25px;
+    left: 1005px;
+    top: 30px;
+    border-radius: 80px;
 }
 
 #player4 {
@@ -87,7 +100,8 @@ h2{
     height: 50px;
     position: relative;
     left: 360px;
-    top: 240px;
+    top: 285px;
+    border-radius: 80px;
 }
 
 #player5 {
@@ -96,14 +110,17 @@ h2{
     position: relative;
     right: 585px;
     top: 240px;
+    top: 285px;
+    border-radius: 80px;
 }
 
 #player6 {
-    width: 240px;
-    height: 50px;
+    width: 210px;
+    height: 80px;
     position: relative;
     bottom: 140px;
-    left: 16px;
+    left: 5px;
+    border-radius: 80px;
 
 }
 
