@@ -1,9 +1,3 @@
-body, div, h1, h2, h3, p, figure, a {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 body {
     background-image: url(../img/BackgroundBory.jpg);
     background-repeat: no-repeat;
@@ -11,7 +5,7 @@ body {
     background-position: center center;
 }
 
-div#central {
+#central {
     width: 600px; /* Adicione uma largura para a div #central */
     height: 550px; /* Adicione uma altura para a div #central */
     background-image: url(../img/logo.png);
@@ -19,7 +13,7 @@ div#central {
     background-size: cover;
     background-position: center center;
     position: relative;
-    left: 425px;
+    left: 330px;
     top: 60px;
 }
 
