@@ -10,23 +10,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 490px;
+    height: 476px;
     width: 1250px;
     padding: 0%;
     align-items: center;
     position: relative;
-    left: 21px;
+    left: 33px;
     border-radius: 80px;
 }
 h1{
     text-align: center;
-    color:  #fed38e;
+    
 }
 h2{
     position: relative;
     color: #ff0000;
-    top: 80px;
-    left: 540px;
+    top: 75px;
+    left: 526px;
+    font-family: sans-serif;
 }
 /*.action-button{
     width: 40px;
@@ -41,7 +42,7 @@ h2{
 
 #pote {
     position: relative;
-    color: #ff0000;
+    color:  #fed38e;
     bottom: 150px;
     left: 138px;
     font-size: 50px;
@@ -64,6 +65,13 @@ h2{
     position: relative;
     left: -200px;
     bottom: 7px;
+    border-radius: 80px;
+    background-image: url(../img/fundoPlayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 #player2 {
@@ -72,6 +80,11 @@ h2{
     position: relative;
     bottom: 7px;
     right: 25px;
+    border-radius: 80px;
+    background-image: url(../img/fundoPlayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #player3 {
@@ -80,6 +93,11 @@ h2{
     position: relative;
     left: 975px;
     top: 25px;
+    border-radius: 80px;
+    background-image: url(../img/fundoPlayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #player4 {
@@ -88,6 +106,11 @@ h2{
     position: relative;
     left: 360px;
     top: 240px;
+    border-radius: 80px;
+    background-image: url(../img/fundoPlayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #player5 {
@@ -96,6 +119,11 @@ h2{
     position: relative;
     right: 585px;
     top: 240px;
+    border-radius: 80px;
+    background-image: url(../img/fundoPlayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #player6 {
@@ -104,12 +132,17 @@ h2{
     position: relative;
     bottom: 140px;
     left: 16px;
+    border-radius: 80px;
+    background-image: url(../img/fundoPlayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
 }
 
 .player-slot {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     text-align: center;
 }
 .player-info {
@@ -127,9 +160,22 @@ h2{
     text-align: center;
     margin-top: 10px;
     position: relative;
-    bottom: 35px;
+    bottom: 30px;
     right: 420px;
 }
 .action-button {
     margin: 5px;
+    border-radius: 80px;
+    background-color: #000000;
+    color: #ccc;
+}
+.botaonextphase{
+    border-radius: 80px;
+    background-color: #000000;
+    color: #ccc;
+}
+.action-button-player{
+    border-radius: 80px;
+    background-color: #000000;
+    color: #ccc;
 }
