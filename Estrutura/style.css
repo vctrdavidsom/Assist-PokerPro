@@ -15,7 +15,7 @@ body {
     padding: 0%;
     align-items: center;
     position: relative;
-    left: 33px;
+    left: 50px;
     border-radius: 80px;
 }
 h1{
@@ -26,25 +26,19 @@ h2{
     position: relative;
     color: #ff0000;
     top: 75px;
-    left: 526px;
-    font-family: sans-serif;
+    left: 511px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #050505;
+    letter-spacing: 2px;
 }
-/*.action-button{
-    width: 40px;
-    height: 15px;
-    font-size: 10px;
-}
-.action-button-player{
-    width: 150px;
-    height: 15px;
-    font-size: 10px;
-}*/
 
 #pote {
     position: relative;
     color:  #fed38e;
-    bottom: 150px;
-    left: 138px;
+    bottom: 135px;
+    left: 120px;
     font-size: 50px;
 
 }
@@ -151,16 +145,19 @@ h2{
 #game-phase {
     color: #ff0000;
     text-align: center;
-    font-size: 20px;
+    font-size: 36px;
     margin-top: 20px;
     position: relative;
-    bottom: 5px;
+    bottom: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #050505;
 }
 #next-phase-button {
     text-align: center;
     margin-top: 10px;
     position: relative;
-    bottom: 30px;
+    bottom: 33px;
     right: 420px;
 }
 .action-button {
