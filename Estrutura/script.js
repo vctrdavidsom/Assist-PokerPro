@@ -88,7 +88,7 @@ let currentPhase = "Pré-Flop";
         }
         
         function setCurrentPlayer(currentPlayer){
-            document.getElementById("currentPlayer").innerHTML = `Ação do jogador: ${currentPlayer}`;
+            document.getElementById("currentPlayer").innerHTML = `AÇÃO JOGADOR: ${currentPlayer}`;
         }
 
         //_________________________________________________________________________________________________
