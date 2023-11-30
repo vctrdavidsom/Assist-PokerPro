@@ -18,11 +18,11 @@ body {
 }
 
 #botao{
-    width: 60px;
-    height: 55px;
     position: relative;
     left: 268px;
     top: 390px;
+    width: 60px;
+    height: 55px;
 }
 
 #imagembotao{

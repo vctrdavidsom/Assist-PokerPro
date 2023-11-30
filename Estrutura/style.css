@@ -1,6 +1,5 @@
 body {
     background-image: url(../img/BackgroundBory.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -17,10 +16,20 @@ body {
     position: relative;
     left: 35px;
     border-radius: 80px;
+    bottom: 80px;
 }
-h1{
+#logo{
     text-align: center;
     
+}
+#voltar{
+    width: 60px;
+    position: relative;
+    bottom: 90px;
+}
+#imagembotao{
+    width: 60px;
+    height: auto;
 }
 h2{
     position: relative;
